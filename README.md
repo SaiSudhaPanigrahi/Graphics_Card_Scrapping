@@ -1,4 +1,4 @@
-# [Graphics Cards Scrapper]{.underline}
+# [Graphics Cards Scrapper]
 
 This flask app acts as a Graphics cards scrapper from
 [NewEgg.com]{.underline} (Amazon Handled website for electronics) and
@@ -9,7 +9,7 @@ a [.csv]{.underline} file in your local system and store the information
 for further processing.
 
 
-[How to run the project]{.underline}: -
+## [How to run the project] -
 
 1.  Open Terminal and set the project folder (with four files/folders)
     as current directory.
@@ -24,19 +24,18 @@ for further processing.
 5.  A CSV. File will be automatically created to save the extracted
     contents.
 
-[Screenshots]{.underline}
+## [Screenshots]
 
-[Home page]{.underline}
+[Home page]
 
 This page contains introduction about the project and gives the options
 for register, login and home buttons.
 
 This is the default route(/)
 
-![](vertopal_048cbadbdb484cc095497eff30c3398e/media/image1.png){width="8.20486111111111in"
-height="5.307478127734033in"}
+![](vertopal_048cbadbdb484cc095497eff30c3398e/media/image1.png)
 
-[Login page]{.underline}
+[Login page]
 
 The user can login only if the user data is already stored in the SQLite
 database. This happens when a user register. After registration process,
@@ -50,32 +49,26 @@ closing the browser. This can be done with the 'remember me' button.
 
 This is the (/login) route.
 
-![](vertopal_048cbadbdb484cc095497eff30c3398e/media/image2.png){width="8.145833333333334in"
-height="5.0in"}
+![](vertopal_048cbadbdb484cc095497eff30c3398e/media/image2.png)
 
-[\
-Register page]{.underline}
+[Register page]
 
 The registration page is for new users to register.
 
 Entries to the database is done here.
 
-![](vertopal_048cbadbdb484cc095497eff30c3398e/media/image3.png){width="8.184027777777779in"
-height="4.167361111111111in"}After signing up, the user is automatically
+![](vertopal_048cbadbdb484cc095497eff30c3398e/media/image3.png)After signing up, the user is automatically
 redirected to the login page.
 
 This is the (/register) route.\
-![](vertopal_048cbadbdb484cc095497eff30c3398e/media/image4.png){width="8.097222222222221in"
-height="4.175in"}[Product Display in real time]{.underline}
+![](vertopal_048cbadbdb484cc095497eff30c3398e/media/image4.png)[Product Display in real time]
 
-![](vertopal_048cbadbdb484cc095497eff30c3398e/media/image5.png){width="8.080897856517936in"
-height="4.090277777777778in"}Information such as product name, product
+![](vertopal_048cbadbdb484cc095497eff30c3398e/media/image5.png)Information such as product name, product
 brand, current price and shipping price is scrapped from the html
 elements and displayed here in a grid.
 
-[.CSV file]{.underline}
+[.CSV file]
 
-![](vertopal_048cbadbdb484cc095497eff30c3398e/media/image6.png){width="8.215331364829396in"
-height="4.366666666666666in"}After extraction, the details are stored in
+![](vertopal_048cbadbdb484cc095497eff30c3398e/media/image6.png)After extraction, the details are stored in
 a .csv file in same folder of local machine.
 
