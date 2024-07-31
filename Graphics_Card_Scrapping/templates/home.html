@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    {% for post in lists %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ post['brand'] }}</a>
+              <small class="text-muted">{{ post['product_name'] }}</small>
+            </div>
+            <h2>{{ post['product_name'] }}</h2>
+            <h3><strong>Brand</strong> : {{ post["brand"] }}</h3>
+            <p class="article-content"><strong>Current Price ($): </strong>{{ post['current_price'] }}</p>
+            <p class="article-content"><strong>Shipping Cost ($):</strong> {{ post['shipping'] }}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
